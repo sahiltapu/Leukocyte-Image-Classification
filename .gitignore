@@ -1,0 +1,9 @@
+# Data-set folders
+bloodcells_dataset/
+
+# Files inside folder
+pages/__pycache__
+
+
+# Files
+.env
