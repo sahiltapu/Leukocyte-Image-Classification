@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 
 # Load the pre-trained model
 def loadModel():
-    model = pickle.load(open(r"D:\8th-sem-project\bloodcells_dataset\leukocyte_model", 'rb'))
+    model = pickle.load(open(r"D:\8th-sem-project\leukocyte_model", 'rb'))
     print("Model Loaded . ")
     return model
 
@@ -46,7 +46,7 @@ def main():
     class_name = ['basophil', 'eosinophil', 'erythroblast', 'ig', 'lymphocyte', 'monocyte', 'neutrophil', 'platelet'] 
     
     # Test image path
-    image_path = r'ig\IG_505197.jpg'
+    image_path = r'D:\8th-sem-project\bloodcells_dataset\neutrophil\BNE_229500.jpg'
     
     # Image parameters
     img_height = 300 
