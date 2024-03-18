@@ -41,7 +41,9 @@ def predict_image_class_bytes(model, image_bytes, img_height, img_width):
     class_index = np.argmax(predictions)
     return class_index
 
+# Main function
 def main():
+    
     # Class Names
     class_name = ['basophil', 'eosinophil', 'erythroblast', 'ig', 'lymphocyte', 'monocyte', 'neutrophil', 'platelet'] 
     
